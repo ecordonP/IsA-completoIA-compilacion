@@ -1,0 +1,54 @@
+# Entorno de compilación de IsA completo en GitHub Actions (Windows, macOS y Linux;
+# Python 3.11). Versiones tomadas del entorno "compilar" de Windows para que todas las
+# plataformas usen las mismas librerías.
+numpy==1.26.4
+pandas==2.3.2
+scipy==1.16.1
+statsmodels==0.14.5
+patsy==1.0.3
+matplotlib==3.10.5
+seaborn==0.13.2
+scikit-learn==1.7.1
+scikit-learn-extra==0.3.0
+scikit-posthocs==0.17.0
+pingouin==0.6.1
+factor_analyzer==0.5.1
+reliabiliPy==0.0.36
+semopy==2.3.11
+prince==0.21.0
+linearmodels==7.0
+pydynpd==0.2.2
+arch==8.0.0
+prophet==1.4.0
+cmdstanpy==1.3.0
+xgboost==3.4.2
+lightgbm==4.7.0
+pymc==5.25.1
+pytensor==2.31.7
+arviz==0.23.4
+PyProcessMacro==2.2.0
+pyreadstat==1.3.6
+openpyxl==3.1.5
+pytz==2026.4
+python-dateutil==2.9.0.post0
+reportlab==5.0.1
+tksheet==7.6.0
+pillow==12.3.0
+cryptography==50.0.2
+bokeh==2.4.3
+Jinja2==3.1.6
+ipython==9.4.0
+
+# Informe IA (ia_config.py): SDK de Claude y exportación del informe a Word
+anthropic==1.11.0
+python-docx==1.2.0
+
+# Los necesita pkg_resources al arrancar el programa compilado (jaraco, backports)
+jaraco.text==4.3.0
+jaraco.context==6.1.2
+jaraco.functools==4.6.0
+backports.tarfile==1.2.0
+
+# Compilación (pyarmor no hace falta: obf_*/ llega ya ofuscado desde Windows)
+pyinstaller==6.15.0
+pyinstaller-hooks-contrib==2026.8

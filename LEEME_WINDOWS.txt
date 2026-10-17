@@ -1,0 +1,21 @@
+IsA - Intelligent Statistical Assistant (versión completa con IA) para Windows
+=============================================================================
+
+Requisitos: Windows 10 u 11 de 64 bits.
+
+Instalación
+  1. Descomprima IsA-windows-x64.zip en una carpeta en la que pueda escribir, por
+     ejemplo C:\IsA (no en "Archivos de programa": IsA guarda allí su licencia y la
+     configuración de la IA).
+  2. Abra IsA con Menu.exe. Puede crear un acceso directo a Menu.exe en el escritorio.
+
+Licencia
+  Copie el archivo de licencia config.MENU que le ha facilitado el proveedor en la
+  carpeta de IsA, junto a Menu.exe. Si no está, la primera vez IsA lo pide.
+
+Informe con IA
+  Se configura en el menú: Opciones > Configuración de IA. La configuración se guarda
+  en isa_ia.json, en la carpeta de IsA (las claves API van cifradas).
+
+Desinstalación
+  Borre la carpeta de IsA.

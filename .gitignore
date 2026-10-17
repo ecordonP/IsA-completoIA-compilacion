@@ -1,0 +1,10 @@
+build/
+dist/
+__pycache__/
+*.pyc
+# Nunca: licencias ni claves
+config.MENU
+*.pem
+*.MENU
+isa_ia.json
+isa_ia.json.*
