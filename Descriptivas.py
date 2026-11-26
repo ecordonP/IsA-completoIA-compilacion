@@ -3,14 +3,17 @@
 # ofuscado en obf_win/, obf_mac/, obf_mac_intel/ y obf_linux/.
 if __name__ == "__isa_stub__":
     from datetime import datetime
+    from html import escape as html_escape
     from importlib.metadata import version as _pytz_version
     from licencia import check_module_license
     from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
     from matplotlib.figure import Figure
     from pingouin import compute_bootci
     from scipy import stats
+    from scipy.integrate import quad
+    from scipy.optimize import minimize_scalar
+    from scipy.special import ndtr
     from scipy.stats import shapiro, kstest, normaltest, norm, ttest_1samp, ttest_rel, ttest_ind, levene, mannwhitneyu, wilcoxon, pearsonr, spearmanr, kendalltau, brunnermunzel
-    from semopy.utils import cor
     from statsmodels.stats.diagnostic import lilliefors
     from statsmodels.stats.multitest import multipletests
     from tkinter import ttk, filedialog, messagebox, Toplevel

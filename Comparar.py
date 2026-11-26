@@ -14,6 +14,7 @@ if __name__ == "__isa_stub__":
     from reportlab.lib.units import inch
     from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
     from scipy import stats
+    from scipy.integrate import quad
     from scipy.optimize import brentq
     from statsmodels.formula.api import ols
     from statsmodels.stats.anova import anova_lm

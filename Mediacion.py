@@ -2,6 +2,7 @@
 # PyInstaller necesita ver qué librerías usa el programa; el programa real está
 # ofuscado en obf_win/, obf_mac/, obf_mac_intel/ y obf_linux/.
 if __name__ == "__isa_stub__":
+    from datos_ausentes import aplicar_ausentes
     from importlib.metadata import version as _pytz_version
     from itertools import combinations
     from licencia import check_module_license

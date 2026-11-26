@@ -22,6 +22,7 @@ if __name__ == "__isa_stub__":
     import ia_config
     import json
     import logging
+    import matplotlib
     import matplotlib.pyplot as plt
     import numpy as np
     import os

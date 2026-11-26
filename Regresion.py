@@ -19,10 +19,10 @@ if __name__ == "__isa_stub__":
     from scipy.stats import f as _f_chow
     from scipy.stats import ncf as _ncf
     from scipy.stats import ncx2 as _ncx2, chi2 as _chi2
-    from scipy.stats import shapiro, f as f_dist
+    from scipy.stats import shapiro, f as f_dist, chi2
     from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet, LogisticRegression
     from sklearn.metrics import roc_curve, auc, confusion_matrix, classification_report, cohen_kappa_score, mean_squared_error, mean_absolute_error, r2_score, brier_score_loss, log_loss
-    from sklearn.model_selection import KFold, StratifiedKFold
+    from sklearn.model_selection import KFold, StratifiedKFold, StratifiedShuffleSplit
     from sklearn.preprocessing import StandardScaler
     from statsmodels.compat import lzip
     from statsmodels.imputation.mice import MICEData

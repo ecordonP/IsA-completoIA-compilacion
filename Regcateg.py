@@ -7,6 +7,7 @@ if __name__ == "__isa_stub__":
     from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
     from matplotlib.figure import Figure
     from scipy import stats
+    from scipy.special import expit
     from sklearn.metrics import roc_auc_score, brier_score_loss
     from sklearn.metrics import roc_curve, auc as sk_auc
     from sklearn.metrics import roc_curve, auc, confusion_matrix, brier_score_loss, classification_report, cohen_kappa_score
@@ -14,6 +15,7 @@ if __name__ == "__isa_stub__":
     from statsmodels.discrete.count_model import ZeroInflatedPoisson, ZeroInflatedNegativeBinomialP
     from statsmodels.miscmodels.ordinal_model import OrderedModel
     from statsmodels.stats.outliers_influence import variance_inflation_factor
+    from statsmodels.tools.numdiff import approx_hess
     from tkinter import ttk, filedialog, messagebox, Toplevel
     from tkinter.constants import DISABLED, NORMAL
     from tkinter.scrolledtext import ScrolledText

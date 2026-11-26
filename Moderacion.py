@@ -3,6 +3,7 @@
 # ofuscado en obf_win/, obf_mac/, obf_mac_intel/ y obf_linux/.
 if __name__ == "__isa_stub__":
     from dataclasses import dataclass, field
+    from datos_ausentes import aplicar_ausentes
     from importlib.metadata import version as _pytz_version
     from itertools import combinations
     from licencia import check_module_license
