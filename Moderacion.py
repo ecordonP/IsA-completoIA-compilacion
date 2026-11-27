@@ -24,6 +24,7 @@ if __name__ == "__isa_stub__":
     import os, io, base64, threading, json, traceback
     import pyreadstat
     import pytz as _pytz
+    import re
     import statsmodels.api as sm
     import statsmodels.formula.api as smf
     import sys
